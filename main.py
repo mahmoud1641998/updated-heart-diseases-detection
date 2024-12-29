@@ -8,11 +8,11 @@ con_clos=["age","cigsPerDay","totChol","sysBP","diaBP","BMI","heartRate","glucos
 cat_cols=["Sex","diabetes"] #the columns that need to be encoded
 
 # Loading Stored Objects for Reuse
-cols=pickle.load(open(r"/workspaces/updated-heart-diseases-detection/fetures.pkl","rb"))
-scaller=pickle.load(open(r"/workspaces/updated-heart-diseases-detection/scaller.pkl","rb"))
-encoder=pickle.load(open(r"/workspaces/updated-heart-diseases-detection/encoders.pkl","rb"))
-models=pickle.load(open(r"/workspaces/updated-heart-diseases-detection/models.pkl","rb"))
-pca=pickle.load(open(r"/workspaces/updated-heart-diseases-detection/PCA.pkl","rb"))
+cols=pickle.load(open(r"updated-heart-diseases-detection/fetures.pkl","rb"))
+scaller=pickle.load(open(r"updated-heart-diseases-detection/scaller.pkl","rb"))
+encoder=pickle.load(open(r"updated-heart-diseases-detection/encoders.pkl","rb"))
+models=pickle.load(open(r"updated-heart-diseases-detection/models.pkl","rb"))
+pca=pickle.load(open(r"updated-heart-diseases-detection/PCA.pkl","rb"))
 
 
 
