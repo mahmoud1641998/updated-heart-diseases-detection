@@ -9,10 +9,10 @@ cat_cols=["Sex","diabetes"] #the columns that need to be encoded
 
 # Loading Stored Objects for Reuse
 cols=pickle.load(open(r"fetures.pkl","rb"))
+scaller=pickle.load(open(r"scaller.pkl","rb"))
 encoder=pickle.load(open(r"encoders.pkl","rb"))
 models=pickle.load(open(r"models.pkl","rb"))
 pca=pickle.load(open(r"PCA.pkl","rb"))
-
 
 
 
